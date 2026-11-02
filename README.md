@@ -42,9 +42,9 @@ tools into complete security workflows.
 For detailed skill descriptions see **[skills/README.md](claude-plugin-bdsca/skills/README.md)**.
 
 ## Authors and acknowledgment
-Jussi Polet <polet@blackduck.com>  
-Matti Siipola <matti@blackduck.com>  
-Bogdan Mihaila <bmihaila@blackduck.com>  
+Bogdan Mihaila <bmihaila@blackduck.com> 
+Matti Siipola <matti@blackduck.com> 
+Jussi Polet <polet@blackduck.com> 
 
 ## License
 Copyright (C) 2026 Black Duck Software, Inc. - see LICENSE file for details. All rights reserved.
