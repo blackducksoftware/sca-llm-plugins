@@ -1,4 +1,4 @@
-# BD Hub Remediation Comment Templates
+# BDSCA Remediation Comment Templates
 
 Structured comment templates for `update_vulnerability_remediation`.
 Use the appropriate template based on the remediation status and
@@ -163,6 +163,6 @@ is made.
   "pipdeptree --reverse", "go mod why", "npm why", "ldd analysis",
   "import grep with no matches", "build-tool verification".
 - `{evidence}` should be a brief factual statement, not raw tool
-  output. Raw output belongs in PR descriptions, not BD Hub comments.
+  output. Raw output belongs in PR descriptions, not BDSCA comments.
 - For batch operations, use the same template for all items in the
   batch, varying only the component-specific fields.

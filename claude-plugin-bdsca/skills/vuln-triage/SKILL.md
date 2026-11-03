@@ -29,7 +29,7 @@ document are to be interpreted as described in RFC 2119.
 ### Step 1: Verify connectivity
 
 If no Black Duck SCA tools have been successfully called in this
-session, MUST call `check_status`. MUST NOT proceed if connectivity
+session, MUST call `health_check`. MUST NOT proceed if connectivity
 cannot be established.
 
 ### Step 2: Identify the target

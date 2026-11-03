@@ -21,9 +21,9 @@ are to be interpreted as described in the RFC 2119.
 ### Step 1: Verify connectivity
 
 If no Black Duck SCA tools have been successfully called in this session,
-MUST call `check_status` to confirm the backend is reachable. If a tool
+MUST call `health_check` to confirm the backend is reachable. If a tool
 call fails with a connection error, SHOULD retry after calling
-`check_status` to diagnose the issue. MUST NOT proceed if connectivity
+`health_check` to diagnose the issue. MUST NOT proceed if connectivity
 cannot be established.
 
 ### Step 2: Find the target project

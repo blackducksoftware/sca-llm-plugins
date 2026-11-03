@@ -1,5 +1,5 @@
 {
-  "name": "blackduck-bdsca",
+  "name": "blackduck-bdsca-mcp",
   "version": "0.11.1",
   "description": "Black Duck SCA tools for vulnerability analysis, component scanning, and compliance reporting",
   "author": {

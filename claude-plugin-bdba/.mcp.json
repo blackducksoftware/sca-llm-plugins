@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "blackduck-bdba-mcp": {
+      "command": "uvx",
+      "args": [
+        "--managed-python",
+        "--python", "3.13",
+        "--from", "blackduck-sca-mcp==0.11.1",
+        "bdba"
+      ],
+      "env": {
+        "BLACKDUCK_BDBA_URL": "${BLACKDUCK_BDBA_URL:-}",
+        "BLACKDUCK_BDBA_TOKEN": "${BLACKDUCK_BDBA_TOKEN:-}",
+        "BLACKDUCK_BDBA_TOKEN_FILE": "${BLACKDUCK_BDBA_TOKEN_FILE:-}",
+        "BLACKDUCK_MCP_READ_ONLY": "${BLACKDUCK_MCP_READ_ONLY:-false}"
+      }
+    }
+  }
+}

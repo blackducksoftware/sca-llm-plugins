@@ -1,7 +1,7 @@
-# SCA Skills & Agents Reference
+# SCA Skills Reference
 
 Entry-point reference for the Black Duck SCA workflows shipped with
-this plugin. Each skill and agent owns its own description in its
+this plugin. Each skill owns its own description in its
 frontmatter — this file is only a map.
 
 ## Surface
@@ -34,8 +34,8 @@ frontmatter — this file is only a map.
 
 ## Knowledge files
 
-Reference data loaded by skills/agents via `Read`. Not auto-discovered as skills.
+Reference data loaded by skills via `Read`. Not auto-discovered as skills.
 
 | Path | Content |
 |------|---------|
-| `knowledge/triage/comment-templates.md` | 11 BD Hub remediation comment templates (5 NOT_AFFECTED justifications, 5 AFFECTED remediations, 1 UNDER_INVESTIGATION) |
+| `knowledge/triage/comment-templates.md` | 11 BD BDSCA remediation comment templates (5 NOT_AFFECTED justifications, 5 AFFECTED remediations, 1 UNDER_INVESTIGATION) |
