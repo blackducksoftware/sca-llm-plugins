@@ -20,7 +20,7 @@ What SCA tools do you have access to?
 Show me my latest scans and vulnerabilities.
 ```
 
-For more examples on the usage of the MCP server, see the **[MCP README.md](https://github.com/blackducksoftware/sca-mcp/blob/main/README.md)**.
+For more examples on the usage of the MCP server, see the **[MCP README.md](https://github.com/blackducksoftware/sca-mcp/blob/main/docs/bdsca.md)**.
 
 ### Environment Variables
 Available environment variables for configuring the MCP server:
