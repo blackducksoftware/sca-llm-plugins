@@ -1,0 +1,19 @@
+claude-plugin-bdba/README.md
+  s_d68f40b7e5af99::t_d9ca96daf2f982 3,5-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7289f8fb9965b95cbfaad287e6091b28a22b3c0b",
+  "prompts": {},
+  "sessions": {
+    "s_d68f40b7e5af99": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a515152e-4ac9-48f8-8c30-d2918d106d82",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Bogdan Mihaila <bmihaila@blackduck.com>"
+    }
+  }
+}
